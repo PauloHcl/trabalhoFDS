@@ -1,0 +1,72 @@
+body{ /*1º topico*/ 
+    background-color: rgb(194, 233, 220); /*Fundo da Pagina*/
+}
+
+h1{ /*2º Topico*/
+    color:brown; /*Titulo cor diferente*/
+    text-align: center; /*Titulo centralizado*/
+}
+
+p{ /*3º Topico*/
+    font-size: x-large; /*Paragradi fonte maior*/
+    text-align: justify; /*Texto justificado*/
+    margin: 10px;
+}
+
+ul{ /*4º Topico*/
+    line-height: 35px; /*Espaçamento entre elementos da Livsta*/
+    
+}
+
+h3{
+    font-weight: bold;
+    font-size: 25x;
+    margin: 15px;
+}
+
+.HarryLendoLivro{ /*5º topico*/
+    border: 2px solid black; /*tipo de borda*/
+    border-radius: 15px; /*Arredonadamento*/
+}
+
+.HarryLendoLivro:hover{ /*Curso em cima*/
+    transform: scale(1.1); /*tranformar ao ficar em cima*/
+    text-align: center;
+}
+
+.tabela-estili{ /*6º topico*/
+    width: 50%; /*tamanho largura*/
+    border-collapse: collapse; /*Tirar borda interna*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    background-color:bisque;
+}
+
+.tabela-estili th{ /*Legendads*/
+    font-family: cursive;
+}
+
+.pais{
+    height: 100px;
+    width: 150px;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.pais:hover{
+    transform: scale(1.1);
+}
+
+a{
+    display: block; /* transforma o link em bloco */
+    margin: 0 auto; /* centraliza horizontalmente */
+    width: max-content;/* faz o bloco ter o tamanho exato do conteúdo */
+    text-align: center; /*garante centralização interna*/
+    font-size: 24px;
+}
+a:hover{ /*7º topico*/
+    color: brown; /*trocar de cora a passar curso em cima*/
+    font-weight: bolder;
+    
+}
